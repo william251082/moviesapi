@@ -9,10 +9,12 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Movie;
+use AppBundle\Exception\ValidationException;
 use FOS\RestBundle\Controller\ControllerTrait;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use FOS\RestBundle\Controller\Annotations as Rest;
+use Symfony\Component\Validator\ConstraintViolationListInterface;
 
 class MoviesController extends AbstractController
 {
@@ -36,8 +38,12 @@ class MoviesController extends AbstractController
      * @ParamConverter("movie", converter="fos_rest.request_body")
      * @Rest\NoRoute()
      */
-    public function postMoviesAction(Movie $movie)
+    public function postMoviesAction(Movie $movie, ConstraintViolationListInterface $validationErrors)
     {
+        if (count($validationErrors) > 0)
+        {
+            throw new ValidationException($validationErrors);
+        }
         $em = $this
             ->getDoctrine()
             ->getManager();
