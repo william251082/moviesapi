@@ -6,8 +6,7 @@
  * Time: 12:01 PM
  */
 
-namespace AppBundle\DataFixtures;
-
+namespace AppBundle\DataFixtures\ORM;
 
 use AppBundle\Entity\Movie;
 use Doctrine\Bundle\FixturesBundle\Fixture;
