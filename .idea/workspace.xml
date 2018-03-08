@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f38c98ee-aa6f-479c-805e-5a0e865dd3eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ExceptionController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ExceptionController.php" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/MoviesController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/MoviesController.php" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Movie.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Movie.php" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Role.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Role.php" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Serializer/DoctrineEntityDeserializationSubscriber.php" afterPath="$PROJECT_DIR$/src/AppBundle/Serializer/DoctrineEntityDeserializationSubscriber.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +21,7 @@
       <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Role.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="62">
               <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
                 <element signature="e#128#160#0#PHP" expanded="true" />
@@ -45,13 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctrineEntityDeserializationSubscriber.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoctrineEntityDeserializationSubscriber.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Serializer/DoctrineEntityDeserializationSubscriber.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+            <state relative-caret-position="2898">
+              <caret line="143" column="32" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="32" />
               <folding>
                 <element signature="e#132#175#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Movie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#84#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,12 +110,12 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Annotation/DeserializeEntity.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadMovieData.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Movie.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadPersonData.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/MoviesController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ExceptionController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Role.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Serializer/DoctrineEntityDeserializationSubscriber.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ExceptionController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Movie.php" />
       </list>
     </option>
   </component>
@@ -333,12 +342,12 @@
       <workItem from="1520331520206" duration="6236000" />
       <workItem from="1520340507967" duration="14623000" />
       <workItem from="1520408114264" duration="8226000" />
-      <workItem from="1520490739430" duration="9257000" />
+      <workItem from="1520490739430" duration="10211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38342000" />
+    <option name="totallyTimeSpent" value="39296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -384,8 +393,8 @@
           <folding>
             <element signature="e#128#160#0#PHP" expanded="true" />
             <element signature="e#422#563#0#PHP" expanded="false" />
-            <element signature="e#805#901#0#PHP" expanded="false" />
-            <element signature="e#932#1025#0#PHP" expanded="false" />
+            <element signature="e#802#898#0#PHP" expanded="false" />
+            <element signature="e#929#1022#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -413,8 +422,8 @@
           <folding>
             <element signature="e#128#160#0#PHP" expanded="true" />
             <element signature="e#422#563#0#PHP" expanded="false" />
-            <element signature="e#805#901#0#PHP" expanded="false" />
-            <element signature="e#932#1025#0#PHP" expanded="false" />
+            <element signature="e#802#898#0#PHP" expanded="false" />
+            <element signature="e#929#1022#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,7 +482,7 @@
         <state relative-caret-position="1638">
           <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
           <folding>
-            <element signature="e#36#84#0#PHP" expanded="false" />
+            <element signature="e#36#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,30 +697,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Movie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1565">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Annotation/DeserializeEntity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="e#131#183#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="e#128#160#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,10 +735,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Serializer/DoctrineEntityDeserializationSubscriber.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        <state relative-caret-position="2898">
+          <caret line="143" column="32" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="32" />
           <folding>
             <element signature="e#132#175#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#128#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Movie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
