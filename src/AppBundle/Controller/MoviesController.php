@@ -115,7 +115,7 @@ class MoviesController extends AbstractController
             ->getRoles()
             ->add($role);
 
-        $em->persist($role);
+        $em->persist($movie);
         $em->flush();
 
         return $role;

@@ -46,7 +46,7 @@ class Movie
      *
      * @ORM\Column(name="time", type="smallint")
      * @Assert\NotBlank()
-     * @Assert\Range(min=1, max=30)
+     * @Assert\Range(min=1, max=300)
      */
     private $time;
 

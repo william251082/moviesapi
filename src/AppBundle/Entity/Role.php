@@ -32,7 +32,7 @@ class Role
     /**
      * @var Person
      * @ORM\ManyToOne(targetEntity="Person")
-     * @App\DeserializeEntity(type="AppBundle\Entity\Person", idField="id", idGetter="getId", setter="setPerson")
+     * @App\DeserializeEntity(type="AppBundle\Entity\Person", idField="id", idGetter="getId", setter="setPersonXXX")
      */
     private $person;
 
